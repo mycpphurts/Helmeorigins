@@ -1,0 +1,32 @@
+{
+    "name": "Better Odds",
+    "description": "You're used to most harming potions, you have a 50% chance to not take damage from poison, harming, or weakness potions.",
+    "type": "origins:action_over_time",
+    "interval": 20,
+    "entity_action": {
+        "type": "origins:choice",
+        "actions": [
+            {
+                "weight": 50,
+                "element": {
+                    "type": "origins:execute_command",
+                    "command": "effect clear @s minecraft:poison"
+                }
+            },
+            {
+                "weight": 50,
+                "element": {
+                    "type": "origins:execute_command",
+                    "command": "effect clear @s minecraft:slowness"
+                }
+            },
+            {
+                "weight": 50,
+                "element": {
+                    "type": "origins:execute_command",
+                    "command": "effect clear @s minecraft:weakness"
+                }
+            }
+        ]
+    }
+}

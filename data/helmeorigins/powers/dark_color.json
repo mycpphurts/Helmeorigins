@@ -1,0 +1,9 @@
+{
+    "name": "Dark Color",
+    "description": "Your scales are tinted gray, making you appear with a slight gray color.",
+    "type": "origins:model_color",
+    "red": 0.33,
+    "green": 0.34,
+    "blue": 0.45,
+    "alpha": 1
+}

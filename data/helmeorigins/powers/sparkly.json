@@ -1,0 +1,10 @@
+{
+    "name": "Sparkly",
+    "description": "Your scales reflect in the light.",
+    "type": "origins:action_over_time",
+    "interval": 17,
+    "entity_action": {
+        "type": "origins:execute_command",
+        "command": "particle minecraft:end_rod ~ ~ ~ 1 1 1 0.15 15"
+    }
+}

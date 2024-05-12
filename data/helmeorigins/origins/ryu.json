@@ -1,0 +1,27 @@
+{
+    "name": "Ryū",
+    "description": "You are a legendary creature born from the heavens.",
+    "powers": [
+        "origins:elytra",
+        "origins:more_exhaustion",
+        "origins:carnivore",
+        "helmeorigins:all_knowing",
+        "helmeorigins:better_odds",
+        "helmeorigins:big_body",
+        "helmeorigins:dark_color",
+        "helmeorigins:friendly_eyes",
+        "helmeorigins:healing_potions",
+        "helmeorigins:heavy_scales",
+        "helmeorigins:lift_off",
+        "helmeorigins:natural_protection",
+        "helmeorigins:so_much_weight",
+        "helmeorigins:sparkly",
+        "helmeorigins:winged"
+    ],
+    "icon": {
+        "item": "minecraft:stick"
+    },
+    "order": 15,
+    "impact": 3,
+    "loading_priority": 1
+}

@@ -1,0 +1,22 @@
+{
+    "name": "So Much Weight",
+    "description": "Because you're heavier, you take more fall damage.",
+    "type": "origins:modify_damage_taken",
+    "damage_condition": {
+        "type": "origins:or",
+        "conditions": [
+            {
+                "type": "origins:name",
+                "name": "fall"
+            },
+            {
+                "type": "origins:name",
+                "name": "flyIntoWall"
+            }
+        ]
+    },
+    "modifier": {
+        "operation": "multiply_base",
+        "value": 0.5
+    }
+}

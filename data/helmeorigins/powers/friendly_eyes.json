@@ -1,0 +1,10 @@
+{
+    "name": "Friendly Eyes",
+    "description": "Endermen are used to you, looking at an enderman will not anger them.",
+    "type": "origins:action_over_time",
+    "interval": 20,
+    "entity_action": {
+        "type": "origins:execute_command",
+        "command": "function helmeorigins:friendly_eyes"
+    }
+}

@@ -1,0 +1,7 @@
+{
+    "origins": [
+        "helmeorigins:ryu"
+    ],
+    "enabled": true,
+    "allow_random": true
+}
